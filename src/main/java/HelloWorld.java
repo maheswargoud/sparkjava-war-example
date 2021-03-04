@@ -9,6 +9,6 @@ public class HelloWorld implements SparkApplication {
 
 	@Override
 	public void init() {
-		get("/hello", (req, res) -> "hello world java jr.ntr");
+		get("/hello", (req, res) -> "hello world java jr.ntr is no.1");
 	}
 }
